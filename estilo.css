@@ -1,0 +1,131 @@
+html,
+body {
+  background: linear-gradient(
+    140deg,
+    #0d0d0d,
+    #0a1926,
+    #142f40,
+    #254a59,
+    #a4a5a6
+  );
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  font: 16px "Lucida Grande", "Lucida Sans Unicode", Arial, sans-serif;
+}
+#container {
+  width: 1080px;
+  margin: 0 auto;
+}
+h1,
+h3 {
+  font-family: "Yanone Kaffeesatz";
+  font-size: 1.8em;
+}
+a {
+  text-decoration: none;
+  color: #a4a5a6;
+}
+#ativo,
+a:hover {
+  color: ghostwhite;
+  font-weight: bold;
+}
+header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 0;
+  height: 55px;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(20, 47, 64, 0.5),
+    rgba(10, 25, 38, 0.5)
+  );
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px #000000;
+}
+#logo {
+  color: ghostwhite;
+  padding: 10px;
+  font-family: "Yanone Kaffeesatz";
+  font-size: 2.5em;
+}
+nav ul {
+  width: 300px;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+nav li {
+  text-align: center;
+}
+section {
+  background-color: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(45px);
+  padding: 15px;
+  margin-top: 15px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px #000000;
+}
+#noticia h1 {
+  text-align: center;
+}
+#video {
+  text-align: center;
+}
+#conteudo {
+  display: flex;
+}
+#conteudo div {
+  text-align: justify;
+  padding: 0 7px;
+}
+#destaques {
+  display: flex;
+  justify-content: space-around;
+}
+.conteudo-destaques {
+  background: linear-gradient(to bottom, rgb(20, 47, 64), rgb(10, 25, 38));
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px #000000;
+  transition: 0.3s;
+  width: 300px;
+  height: 200px;
+}
+.conteudo-destaques:hover {
+  box-shadow: 5px 5px 8px #000000;
+  transition: 0.3s;
+  width: 320px;
+  height: 200px;
+}
+.conteudo-destaques h2,
+h4 {
+  color: ghostwhite;
+  font-family: "Yanone Kaffeesatz";
+  text-align: center;
+}
+.conteudo-destaques p {
+  color: ghostwhite;
+  text-align: justify;
+  padding: 0 15px;
+}
+.conteudo-destaques a {
+  padding: 0 15px;
+}
+#rodape {
+  background: linear-gradient(to bottom, rgb(20, 47, 64), rgb(10, 25, 38));
+  border-radius: 10px;
+  margin-top: 15px;
+  box-shadow: 2px 2px 5px #000000;
+}
+#rodape div {
+  padding: 15px 15px 1px 15px;
+  text-align: center;
+}
+#rodape div a {
+  padding: 0 15px;
+}
+#rodape p {
+  color: #a4a5a6;
+}
